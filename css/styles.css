@@ -1,55 +1,173 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 85px;
 }
 
-footer {
-  min-height: 160px;
+body {
+  padding-top: 30px;
 }
 
-/* Flip Card code below taken from https://www.w3schools.com/howto/howto_css_flip_card.asp */
+:root {
+/* Original Colourscheme */
+/* --originalYellow: #fbda61
+--pink: #ff5acd */
 
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-.flip-card {
-  background-color: transparent;
-  width: 210px;
-  height: 210px;
-  border: 5px solid #ff5acd;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+/* Alihossein (uigradients.com) */
+/* yellow: */
+--color1: #f7ff00;
+/* pink: */
+--color3: #db36a4;
+
+/* Back to Earth (uigradients.com) */
+/* blue: */
+--color1: #00C9FF;
+/* green: */
+--color3: #92fe9d;
+  
+/* Timber (uigradients.com) */
+/* pink: */
+--color1: #fc00ff;
+/* blue: */
+--color3: #00dbde;
+
+  
+/* MegaTron colourscheme (uigradients.com) */
+/* green: */
+--color1: #C6FFDD;
+/* yellow: */
+--color2: #FBD786;
+/* coral: */
+--color3: #f7797d;
 }
 
-/* This container is needed to position the front and back side */
-.flip-card-inner {
-  position: relative;
+
+li.nav-item > a {
+  color: #ffffff !important;
+  font-size: 22px;
+}
+
+li.nav-item > a:hover, a:active {
+  border-bottom: solid;
+  border-bottom-width: 2px;
+  color: #ffffff;
+}
+
+
+/* pushes read more buttons to bottom of cards */
+a {
+  margin-top: auto;
+  color: #ffffff;
+}
+
+.read-more, .read-more:visited {
+  background: #ffffff;
+  border: 1px solid #fbda61;
+  color: #fbcd61;
+}
+
+.read-more:hover {
+  background: #fbda61;
+  border: 1px solid #ffcf23;
+  color: #ffffff;
+}
+
+.read-more:focus {
+  background: #fbda61;
+  outline: 4px solid #ffcf23;
+  color: #ffffff;
+}
+
+.read-more:active {
+  background: rgba(255,85,85,1);
+  border: 1px solid rgb(255, 62, 62);
+  color: #ffffff;
+}
+
+.navbar, footer, #newsletter {
+  padding: 50px 0;
+  background-color: rgb(255,222,100);
+  background-image: linear-gradient(54deg, rgba(255,222,100,1) 0%, rgba(255,194,145,1) 39%, rgba(237,133,133,1) 70%, rgba(255,85,85,1) 100%);
+  color: #ffffff;
+  font-size: 18px;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.5);  
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff !important
+}
+
+ul {
+  padding-left: 0;
+  list-style-type: none;
+  ;
+}
+
+.social-btn {
+  display: flex;
+  justify-content: space-around;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.4);
+}
+
+.card-img-top {
   width: 100%;
+  object-fit: cover;
+}
+
+.img-fluid {
   height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
+  object-fit: cover;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+.newsletter-title {
+  font-size: 50px;
 }
 
-/* Position the front and back side */
-.flip-card-front, .flip-card-back {
-  position: absolute;
+.profile {
+  border: 5px solid #fbda61;
+  border-radius: 20px;
+  display: flex;
   width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
+  margin-top: 2rem;
+  padding: 1.5rem 1rem;
+  justify-content: center;
+  overflow: auto;
 }
 
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  background-color: #fbda61;
-  color: #333333;
+.card {
+  border: 1px solid #fbda61;
 }
 
-/* Style the back side */
-.flip-card-back {
-  background-color: #fbda61;
-  color: #333333;
-  transform: rotateY(180deg);
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  .card-img-top {
+    height: 30vw;
+  }
 }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .card-img-top {
+    height: 25vw;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .card-img-top {
+    height: 20vw;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {} */
