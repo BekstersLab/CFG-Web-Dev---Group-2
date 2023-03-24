@@ -10,97 +10,160 @@ html {
 }
 
 body {
-  padding-top: 30px;
+  padding-top: 50px;
+  background-color: var(--color-background);
 }
 
-:root {
-/* Original Colourscheme */
-/* --originalYellow: #fbda61
---pink: #ff5acd */
+/* Wiretap (uigradients.com) */ 
+.theme-bron {
+  --color-primary: #8A2387;
+  --color-secondary: #E94057;
+  --color-tertiary: #F27121;
+  --color-background: #FFFAFA;
+  --color-card: #FFFAFA;
+  --font-light: #ffffff;
+  --font-dark: #444444;
+}
 
-/* Alihossein (uigradients.com) */
-/* yellow: */
---color1: #f7ff00;
-/* pink: */
---color3: #db36a4;
+/* Summer (uigradients.com) */
+.theme-bek {
+  --color-primary: #22c1c3;
+  --color-secondary: #8bbe7b;
+  --color-tertiary: #fdbb2d;
+  --color-background: #FFFAFA;
+  --color-card: #FFFAFA;
+  --font-light: #ffffff;
+  --font-dark: #444444;
+}
 
-/* Back to Earth (uigradients.com) */
-/* blue: */
---color1: #00C9FF;
-/* green: */
---color3: #92fe9d;
-  
-/* Timber (uigradients.com) */
-/* pink: */
---color1: #fc00ff;
-/* blue: */
---color3: #00dbde;
+/* Wedding Day Blues (uigradients.com) */
+.theme-emily {
+  --color-primary: #40E0D0;
+  --color-secondary: #FF8C00;
+  --color-tertiary: #ff0080;
+  --color-background: #FFFAFA;
+  --color-card: #FFFAFA;
+  --font-light: #ffffff;
+  --font-dark: #444444;
+}
 
-  
-/* MegaTron colourscheme (uigradients.com) */
-/* green: */
---color1: #C6FFDD;
-/* yellow: */
---color2: #FBD786;
-/* coral: */
---color3: #f7797d;
+/* Cosmic Fusion (uigradients.com) */
+.theme-yan {
+  --color-primary: #ff00cc;
+  --color-secondary: #991ab3;
+  --color-tertiary: #333399;
+  --color-background: #FFFAFA;
+  --color-card: #FFFAFA;
+  --font-light: #ffffff;
+  --font-dark: #444444;
+}
+
+h1 {
+  color: var(--color-tertiary);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+h2, h3, h4, h5, h6, p {
+  color: var(--font-dark);
+}
+
+.gradient {
+background: var(--color-secondary);
+background-image: linear-gradient(to right, var(--color-primary), var(--color-secondary), var(--color-tertiary));
+}
+
+/* Colour Theme change buttons in the header */
+.button-round {
+  border: none;
+  border-radius: 50%;
+  padding: 1rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: end;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Colour Theme change buttons in about page */
+.button-rect {
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  text-decoration: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  color: var(--font-light);
+}
+
+/* Set colours for Colour Theme change buttons. Update if personal colour themes change */
+#bron-button {
+  background: linear-gradient(#E94057, #8A2387);
+}
+
+#yan-button {
+  background: linear-gradient(#ff00cc, #991ab3);
+}
+
+#emily-button {
+  background: linear-gradient(#FF8C00, #ff0080);
+}
+
+#bek-button {
+  background: linear-gradient(#8bbe7b, #22c1c3);
 }
 
 
 li.nav-item > a {
-  color: #ffffff !important;
-  font-size: 22px;
+  color: var(--font-light) !important;
+  font-size: 1.4rem;
 }
 
 li.nav-item > a:hover, a:active {
   border-bottom: solid;
   border-bottom-width: 2px;
-  color: #ffffff;
+  color: var(--font-light);
 }
 
-
-/* pushes read more buttons to bottom of cards */
+/* pushes read more buttons to bottom of cards. Doesn't work on columns shorter than others? */
 a {
   margin-top: auto;
-  color: #ffffff;
+  color: var(--font-light);
 }
 
 .read-more, .read-more:visited {
-  background: #ffffff;
-  border: 1px solid #fbda61;
-  color: #fbcd61;
+  background: var(--color-background);
+  border: 1px solid var(--color-primary);
+  color: var(--color-secondary);
 }
 
 .read-more:hover {
-  background: #fbda61;
-  border: 1px solid #ffcf23;
-  color: #ffffff;
+  background: var(--color-primary);
+  border: 1px solid var(--color-secondary);
+  color: var(--font-light);
 }
 
 .read-more:focus {
-  background: #fbda61;
-  outline: 4px solid #ffcf23;
-  color: #ffffff;
+  background: var(--color-primary);
+  outline: 4px solid var(--color-secondary);
+  color: var(--font-light);
 }
 
 .read-more:active {
-  background: rgba(255,85,85,1);
-  border: 1px solid rgb(255, 62, 62);
-  color: #ffffff;
+  background: var(--color-secondary);
+  border: 1px solid var(--color-tertiary);
+  color: var(--font-light);
 }
 
 .navbar, footer, #newsletter {
-  padding: 50px 0;
-  background-color: rgb(255,222,100);
-  background-image: linear-gradient(54deg, rgba(255,222,100,1) 0%, rgba(255,194,145,1) 39%, rgba(237,133,133,1) 70%, rgba(255,85,85,1) 100%);
-  color: #ffffff;
-  font-size: 18px;
-  text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.5);  
+  padding: 3.2rem 0;
+  background-color: var(--color-primary);
+  background-image: linear-gradient(54deg, var(--color-primary), var(--color-secondary), var(--color-tertiary));
+  color: var(--font-light);
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);  
 }
 
 footer a {
   text-decoration: none;
-  color: #ffffff !important
+  color: var(--font-light) !important;
 }
 
 ul {
@@ -112,25 +175,27 @@ ul {
 .social-btn {
   display: flex;
   justify-content: space-around;
-  text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.4);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
+/* Forces images to fill space and crop upon resizing */
 .card-img-top {
   width: 100%;
   object-fit: cover;
 }
 
+/* Forces images to fill space and crop upon resizing */
 .img-fluid {
   height: 100%;
   object-fit: cover;
 }
 
 .newsletter-title {
-  font-size: 50px;
+  font-size: 3.5rem;
 }
 
 .profile {
-  border: 5px solid #fbda61;
+  border: 5px solid var(--color-secondary);
   border-radius: 20px;
   display: flex;
   width: 100%;
@@ -141,7 +206,8 @@ ul {
 }
 
 .card {
-  border: 1px solid #fbda61;
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-card);
 }
 
 
