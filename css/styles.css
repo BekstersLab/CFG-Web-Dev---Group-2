@@ -25,11 +25,11 @@ body {
   --font-dark: #444444;
 }
 
-/* Summer (uigradients.com) */
-.theme-bek {
-  --color-primary: #22c1c3;
-  --color-secondary: #8bbe7b;
-  --color-tertiary: #fdbb2d;
+/* Cosmic Fusion (uigradients.com) */
+.theme-yan {
+  --color-primary: #ff00cc;
+  --color-secondary: #991ab3;
+  --color-tertiary: #333399;
   --color-background: #FFFAFA;
   --color-card: #FFFAFA;
   --font-light: #ffffff;
@@ -47,15 +47,32 @@ body {
   --font-dark: #444444;
 }
 
-/* Cosmic Fusion (uigradients.com) */
-.theme-yan {
-  --color-primary: #ff00cc;
-  --color-secondary: #991ab3;
-  --color-tertiary: #333399;
+/* Summer (uigradients.com) */
+.theme-bek {
+  --color-primary: #22c1c3;
+  --color-secondary: #8bbe7b;
+  --color-tertiary: #fdbb2d;
   --color-background: #FFFAFA;
   --color-card: #FFFAFA;
   --font-light: #ffffff;
   --font-dark: #444444;
+}
+
+/* Set colours for Colour Theme change buttons. Update if personal colour themes change */
+#bron-button {
+  background: linear-gradient(#E94057, #8A2387);
+}
+
+#yan-button {
+  background: linear-gradient(#ff00cc, #991ab3);
+}
+
+#emily-button {
+  background: linear-gradient(#FF8C00, #ff0080);
+}
+
+#bek-button {
+  background: linear-gradient(#8bbe7b, #22c1c3);
 }
 
 h1 {
@@ -92,24 +109,6 @@ background-image: linear-gradient(to right, var(--color-primary), var(--color-se
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
   color: var(--font-light);
 }
-
-/* Set colours for Colour Theme change buttons. Update if personal colour themes change */
-#bron-button {
-  background: linear-gradient(#E94057, #8A2387);
-}
-
-#yan-button {
-  background: linear-gradient(#ff00cc, #991ab3);
-}
-
-#emily-button {
-  background: linear-gradient(#FF8C00, #ff0080);
-}
-
-#bek-button {
-  background: linear-gradient(#8bbe7b, #22c1c3);
-}
-
 
 li.nav-item > a {
   color: var(--font-light) !important;
