@@ -4,6 +4,7 @@
   padding: 0;
 }
 
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 85px;
@@ -47,11 +48,11 @@ body {
   --font-dark: #444444;
 }
 
-/* Summer (uigradients.com) */
+/* Made up gradient */
 .theme-bek {
-  --color-primary: #22c1c3;
-  --color-secondary: #8bbe7b;
-  --color-tertiary: #fdbb2d;
+  --color-primary: #B812CB;
+  --color-secondary: #39549e;
+  --color-tertiary: #298007;
   --color-background: #FFFAFA;
   --color-card: #FFFAFA;
   --font-light: #ffffff;
@@ -72,7 +73,7 @@ body {
 }
 
 #bek-button {
-  background: linear-gradient(#8bbe7b, #22c1c3);
+  background: linear-gradient(#B812CB, #39549e);
 }
 
 h1 {
@@ -113,6 +114,23 @@ background-image: linear-gradient(to right, var(--color-primary), var(--color-se
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
   color: var(--font-light);
 }
+
+.navbar-brand {
+  font-size: 40px; 
+  color: var(--font-light);
+}
+
+.dropdown-menu {
+  color: var(--font-light);
+  background: var(--color-secondary);
+  background-image: linear-gradient(to right, var(--color-primary), var(--color-secondary), var(--color-tertiary));
+  border-style: none;
+}
+
+.dropdown-item {
+  color: var(--font-light);
+}
+
 
 li.nav-item > a {
   color: var(--font-light) !important;
