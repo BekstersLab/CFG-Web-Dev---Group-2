@@ -27,98 +27,111 @@
   </head>
   <body>
     <!-- Navigation -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark py-3 gradient">
+    <nav
+      class="navbar d-flex fixed-top navbar-expand-lg navbar-dark py-3 gradient"
+    >
       <div class="container">
+        <div class="col-2">
+          <a href="index.html" class="navbar-brand"
+            ><img
+              src="./img/PPC-news-logo-white.png"
+              alt="PPC News Logo"
+              width="150px"
+          /></a>
+        </div>
+        <div class="col-9">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#home" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#environment" class="nav-link">Environment</a>
+              </li>
+              <li class="nav-item">
+                <a href="#animals" class="nav-link">Animals</a>
+              </li>
+              <li class="nav-item">
+                <a href="#technology" class="nav-link">Technology</a>
+              </li>
+              <li class="nav-item">
+                <a href="#newsletter" class="nav-link">Newsletter</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  About
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="./pages/about.html"
+                      >Bronwen</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./pages/about.html#yan"
+                      >Yan</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./pages/about.html#emily"
+                      >Emily</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./pages/about.html#bek"
+                      >Rebecca</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
         <!-- themes -->
-        <div class="row">
-          <div class="col-3">
+        <div class="col-btn-box col-1">
+          <div>
             <button
               class="button-round"
               id="bron-button"
               onclick="setTheme('theme-bron')"
             ></button>
           </div>
-          <div class="col-3">
+          <div>
             <button
               class="button-round"
               id="yan-button"
               onclick="setTheme('theme-yan')"
             ></button>
           </div>
-          <div class="col-3">
+          <div>
             <button
               class="button-round"
               id="emily-button"
               onclick="setTheme('theme-emily')"
             ></button>
           </div>
-          <div class="col-3">
+          <div>
             <button
               class="button-round"
               id="bek-button"
               onclick="setTheme('theme-bek')"
             ></button>
           </div>
-        </div>
-      </div>
-      <div class="container">
-        <a href="index.html" class="navbar-brand">PPC News</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navmenu"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a href="#home" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="#environment" class="nav-link">Environment</a>
-            </li>
-            <li class="nav-item">
-              <a href="#animals" class="nav-link">Animals</a>
-            </li>
-            <li class="nav-item">
-              <a href="#technology" class="nav-link">Technology</a>
-            </li>
-            <li class="nav-item">
-              <a href="#newsletter" class="nav-link">Newsletter</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                About
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a class="dropdown-item" href="./pages/about.html">Bronwen</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./pages/about.html#yan">Yan</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./pages/about.html#emily"
-                    >Emily</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./pages/about.html#bek"
-                    >Rebecca</a
-                  >
-                </li>
-              </ul>
-            </li>
-          </ul>
         </div>
       </div>
     </nav>
