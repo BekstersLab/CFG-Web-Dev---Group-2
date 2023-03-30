@@ -7,7 +7,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 130px;
+  scroll-padding-top: 150px;
 }
 
 body {
@@ -288,21 +288,21 @@ No media query for `xs` since this is the default in Bootstrap */
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
   .card-img-top {
-    height: 30vw;
+    height: 50vw;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
   .card-img-top {
-    height: 25vw;
+    height: 40vw;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .card-img-top {
-    height: 20vw;
+    height: 35vw;
   }
 }
 
