@@ -165,7 +165,7 @@ a {
 }
 
 .read-more, .read-more:visited {
-  background: var(--color-background);
+  background: var(--font-light);
   border: 1px solid var(--color-primary);
   color: var(--color-secondary);
 }
