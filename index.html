@@ -27,105 +27,32 @@
   </head>
   <body>
     <!-- Navigation -->
-    <nav
-      class="navbar d-flex fixed-top navbar-expand-lg navbar-dark py-3 gradient"
-    >
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark py-3 gradient">
       <div class="container">
-        <div class="col-2">
-          <a href="index.html" class="navbar-brand"
-            ><img
-              src="./img/PPC-news-logo-white.png"
-              alt="PPC News Logo"
-              width="150px"
-          /></a>
-        </div>
-        <div class="col-9">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navmenu"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navmenu">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a href="#home" class="nav-link">Home</a>
-              </li>
-              <li class="nav-item">
-                <a href="#environment" class="nav-link">Environment</a>
-              </li>
-              <li class="nav-item">
-                <a href="#animals" class="nav-link">Animals</a>
-              </li>
-              <li class="nav-item">
-                <a href="#technology" class="nav-link">Technology</a>
-              </li>
-              <li class="nav-item">
-                <a href="#newsletter" class="nav-link">Newsletter</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  About
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a class="dropdown-item" href="./pages/about.html"
-                      >Bronwen</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="./pages/about.html#yan"
-                      >Yan</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="./pages/about.html#emily"
-                      >Emily</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="./pages/about.html#bek"
-                      >Rebecca</a
-                    >
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
         <!-- themes -->
-        <div class="col-btn-box col-1">
-          <div>
+        <div class="row">
+          <div class="col-3">
             <button
               class="button-round"
               id="bron-button"
               onclick="setTheme('theme-bron')"
             ></button>
           </div>
-          <div>
+          <div class="col-3">
             <button
               class="button-round"
               id="yan-button"
               onclick="setTheme('theme-yan')"
             ></button>
           </div>
-          <div>
+          <div class="col-3">
             <button
               class="button-round"
               id="emily-button"
               onclick="setTheme('theme-emily')"
             ></button>
           </div>
-          <div>
+          <div class="col-3">
             <button
               class="button-round"
               id="bek-button"
@@ -134,14 +61,79 @@
           </div>
         </div>
       </div>
+      <div class="container">
+        <a href="index.html" class="navbar-brand"
+          ><img
+            src="./img/PPC-news-logo-white.png"
+            alt="PPC News Logo"
+            width="150px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#environment" class="nav-link">Environment</a>
+            </li>
+            <li class="nav-item">
+              <a href="#animals" class="nav-link">Animals</a>
+            </li>
+            <li class="nav-item">
+              <a href="#technology" class="nav-link">Technology</a>
+            </li>
+            <li class="nav-item">
+              <a href="#newsletter" class="nav-link">Newsletter</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="/pages/about.html">Bronwen</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/pages/about.html#yan">Yan</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/pages/about.html#emily"
+                    >Emily</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/pages/about.html#bek"
+                    >Rebecca</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <main>
       <!-- Top News -->
       <section>
         <div class="container pt-5" id="home">
-          <h1 class="pt-5 pb-3">Top News</h1>
+          <h1 class="pt-5 pb-4">Top News</h1>
           <div class="card text-dark">
-            <div class="row g-0">
+            <div class="row">
               <div class="col-md-5">
                 <img
                   src="img/_127518571_lupin_katescarry.jpg.webp"
@@ -162,7 +154,10 @@
                     Numerous photos of the Aldi interloper have been shared on
                     social media.
                   </p>
-                  <a class="btn align-self-end read-more" href="./pages/article-placeholder.html" role="button"
+                  <a
+                    class="btn align-self-end read-more"
+                    href="./pages/article-placeholder.html"
+                    role="button"
                     >Read More...</a
                   >
                 </div>
@@ -191,7 +186,10 @@
                     nature, leaving baggage behind, and knowing how to play to
                     your strengths
                   </p>
-                  <a href="./pages/article-placeholder.html" type="button" class="btn align-self-end read-more"
+                  <a
+                    href="./pages/article-placeholder.html"
+                    type="button"
+                    class="btn align-self-end read-more"
                     >Read More...</a
                   >
                 </div>
@@ -216,7 +214,10 @@
                     the go-to renewable energy source, but that could be about
                     to change
                   </p>
-                  <a href="./pages/article-placeholder.html" type="button" class="btn align-self-end read-more"
+                  <a
+                    href="./pages/article-placeholder.html"
+                    type="button"
+                    class="btn align-self-end read-more"
                     >Read More...</a
                   >
                 </div>
@@ -237,7 +238,10 @@
                     There were wins for gender inclusivity, a DIY smartphone
                     launched, and renewables reined in emissions, plus more
                   </p>
-                  <a href="./pages/article-placeholder.html" type="button" class="btn align-self-end read-more"
+                  <a
+                    href="./pages/article-placeholder.html"
+                    type="button"
+                    class="btn align-self-end read-more"
                     >Read More...</a
                   >
                 </div>
@@ -271,7 +275,10 @@
                     to annihilation. A new book suggests we should be more
                     optimistic
                   </p>
-                  <a href="./pages/article-placeholder.html" type="button" class="btn align-self-end read-more"
+                  <a
+                    href="./pages/article-placeholder.html"
+                    type="button"
+                    class="btn align-self-end read-more"
                     >Read More...</a
                   >
                 </div>
@@ -293,7 +300,10 @@
                     world’s most nature depleted nations. These projects are
                     aiming to turn the tide
                   </p>
-                  <a href="./pages/article-placeholder.html" type="button" class="btn align-self-end read-more"
+                  <a
+                    href="./pages/article-placeholder.html"
+                    type="button"
+                    class="btn align-self-end read-more"
                     >Read More...</a
                   >
                 </div>
@@ -324,7 +334,10 @@
                     produces electricity from thin air was discovered, plus more
                     good news
                   </p>
-                  <a href="./pages/article-placeholder.html" type="button" class="btn align-self-end read-more"
+                  <a
+                    href="./pages/article-placeholder.html"
+                    type="button"
+                    class="btn align-self-end read-more"
                     >Read More...</a
                   >
                 </div>
@@ -348,7 +361,10 @@
                     10,000 sq ft plant factory in Berkshire, Martin Wright digs
                     into the hope behind the hype
                   </p>
-                  <a href="./pages/article-placeholder.html" type="button" class="btn align-self-end read-more"
+                  <a
+                    href="./pages/article-placeholder.html"
+                    type="button"
+                    class="btn align-self-end read-more"
                     >Read More...</a
                   >
                 </div>
@@ -372,7 +388,10 @@
                     providing a source of long-term income and helping women to
                     thrive
                   </p>
-                  <a href="./pages/article-placeholder.html" type="button" class="btn align-self-end read-more"
+                  <a
+                    href="./pages/article-placeholder.html"
+                    type="button"
+                    class="btn align-self-end read-more"
                     >Read More...</a
                   >
                 </div>
@@ -440,7 +459,10 @@
                     December 19, weighing just 4oz (119g) following a 130-day
                     pregnancy.
                   </p>
-                  <a href="./pages/article-placeholder.html" type="button" class="btn align-self-end read-more"
+                  <a
+                    href="./pages/article-placeholder.html"
+                    type="button"
+                    class="btn align-self-end read-more"
                     >Read More...</a
                   >
                 </div>
@@ -465,7 +487,10 @@
                     of his lungs actually managed to draw in a pod of these
                     smaller whales who began to interact with his kayak.
                   </p>
-                  <a href="./pages/article-placeholder.html" type="button" class="btn align-self-end read-more"
+                  <a
+                    href="./pages/article-placeholder.html"
+                    type="button"
+                    class="btn align-self-end read-more"
                     >Read More...</a
                   >
                 </div>
@@ -498,7 +523,10 @@
                     and bought the fox - given the name Florence - a tent to
                     sleep in.
                   </p>
-                  <a href="./pages/article-placeholder.html" type="button" class="btn align-self-end read-more"
+                  <a
+                    href="./pages/article-placeholder.html"
+                    type="button"
+                    class="btn align-self-end read-more"
                     >Read More...</a
                   >
                 </div>
@@ -524,7 +552,10 @@
                     traits tended to form cliques separate from
                     differently-wired peers, much like humans.
                   </p>
-                  <a href="./pages/article-placeholder.html" type="button" class="btn align-self-end read-more"
+                  <a
+                    href="./pages/article-placeholder.html"
+                    type="button"
+                    class="btn align-self-end read-more"
                     >Read More...</a
                   >
                 </div>
@@ -548,7 +579,10 @@
                     report reveals pet owners are much happier and less lonely
                     than those without a four-legged companion
                   </p>
-                  <a href="./pages/article-placeholder.html" type="button" class="btn align-self-end read-more"
+                  <a
+                    href="./pages/article-placeholder.html"
+                    type="button"
+                    class="btn align-self-end read-more"
                     >Read More...</a
                   >
                 </div>
@@ -579,7 +613,10 @@
                     job. Hell, it’s gunning for mine. But no matter how hard it
                     tries, ChatGPT will never be human
                   </p>
-                  <a href="./pages/article-placeholder.html" type="button" class="btn align-self-end read-more"
+                  <a
+                    href="./pages/article-placeholder.html"
+                    type="button"
+                    class="btn align-self-end read-more"
                     >Read More...</a
                   >
                 </div>
@@ -602,7 +639,10 @@
                     connection contradictory? Or can we ‘tap in’ to the natural
                     world – and improve health and wellbeing at the same time?
                   </p>
-                  <a href="./pages/article-placeholder.html" type="button" class="btn align-self-end read-more"
+                  <a
+                    href="./pages/article-placeholder.html"
+                    type="button"
+                    class="btn align-self-end read-more"
                     >Read More...</a
                   >
                 </div>
@@ -631,7 +671,10 @@
                     reading revolution in developing countries, Anna Bevan
                     reports
                   </p>
-                  <a href="./pages/article-placeholder.html" type="button" class="btn align-self-end read-more"
+                  <a
+                    href="./pages/article-placeholder.html"
+                    type="button"
+                    class="btn align-self-end read-more"
                     >Read More...</a
                   >
                 </div>
@@ -655,7 +698,10 @@
                     this new and growing problem. How do we save ourselves from
                     internet addiction?
                   </p>
-                  <a href="./pages/article-placeholder.html" type="button" class="btn align-self-end read-more"
+                  <a
+                    href="./pages/article-placeholder.html"
+                    type="button"
+                    class="btn align-self-end read-more"
                     >Read More...</a
                   >
                 </div>
@@ -680,7 +726,10 @@
                     likely to be in use by 2020, how will it adjust our economic
                     and social landscape?
                   </p>
-                  <a href="./pages/article-placeholder.html" type="button" class="btn align-self-end read-more"
+                  <a
+                    href="./pages/article-placeholder.html"
+                    type="button"
+                    class="btn align-self-end read-more"
                     >Read More...</a
                   >
                 </div>

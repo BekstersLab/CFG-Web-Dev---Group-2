@@ -23,109 +23,36 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../css/styles.css" />
-    <title>Article Name - Positive Press Company</title>
+    <title>Home - Positive Press Company</title>
   </head>
   <body>
     <!-- Navigation -->
-    <nav
-      class="navbar d-flex fixed-top navbar-expand-lg navbar-dark py-3 gradient"
-    >
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark py-3 gradient">
       <div class="container">
-        <div class="col-2">
-          <a href="../index.html" class="navbar-brand"
-            ><img
-              src="../img/PPC-news-logo-white.png"
-              alt="PPC News Logo"
-              width="150px"
-          /></a>
-        </div>
-        <div class="col-9">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navmenu"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navmenu">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a href="../index.html" class="nav-link">Home</a>
-              </li>
-              <li class="nav-item">
-                <a href="../index.html#environment" class="nav-link">Environment</a>
-              </li>
-              <li class="nav-item">
-                <a href="../index.html#animals" class="nav-link">Animals</a>
-              </li>
-              <li class="nav-item">
-                <a href="../index.html#technology" class="nav-link">Technology</a>
-              </li>
-              <li class="nav-item">
-                <a href="../index.html#newsletter" class="nav-link">Newsletter</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  About
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a class="dropdown-item" href="../pages/about.html"
-                      >Bronwen</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="../pages/about.html#yan"
-                      >Yan</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="../pages/about.html#emily"
-                      >Emily</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="../pages/about.html#bek"
-                      >Rebecca</a
-                    >
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
         <!-- themes -->
-        <div class="col-btn-box col-1">
-          <div>
+        <div class="row">
+          <div class="col-3">
             <button
               class="button-round"
               id="bron-button"
               onclick="setTheme('theme-bron')"
             ></button>
           </div>
-          <div>
+          <div class="col-3">
             <button
               class="button-round"
               id="yan-button"
               onclick="setTheme('theme-yan')"
             ></button>
           </div>
-          <div>
+          <div class="col-3">
             <button
               class="button-round"
               id="emily-button"
               onclick="setTheme('theme-emily')"
             ></button>
           </div>
-          <div>
+          <div class="col-3">
             <button
               class="button-round"
               id="bek-button"
@@ -134,59 +61,167 @@
           </div>
         </div>
       </div>
+      <div class="container">
+        <a href="../index.html" class="navbar-brand"
+          ><img
+            src="../img/PPC-news-logo-white.png"
+            alt="PPC News Logo"
+            width="150px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="../index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="../index.html#environment" class="nav-link"
+                >Environment</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="../index.html#animals" class="nav-link">Animals</a>
+            </li>
+            <li class="nav-item">
+              <a href="../index.html#technology" class="nav-link">Technology</a>
+            </li>
+            <li class="nav-item">
+              <a href="../index.html#newsletter" class="nav-link">Newsletter</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="../pages/about.html"
+                    >Bronwen</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../pages/about.html#yan"
+                    >Yan</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../pages/about.html#emily"
+                    >Emily</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../pages/about.html#bek"
+                    >Rebecca</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <main>
-<!-- Article -->
+      <!-- Article -->
       <section>
         <div class="container pt-5">
           <div class="row pt-5 g-0">
             <div class="col-lg-8">
-              <h1>
-                Lorem ipsum dolor sit amet
-              </h1>
+              <h1>Lorem ipsum dolor sit amet</h1>
               <p class="summary-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fringilla ex sem. Phasellus dignissim dolor suscipit urna condimentum rutrum. Donec venenatis nibh turpis, ac ultrices tortor tempor eget. Duis vitae lorem vitae metus lobortis lobortis non at libero.4
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus fringilla ex sem. Phasellus dignissim dolor suscipit
+                urna condimentum rutrum. Donec venenatis nibh turpis, ac
+                ultrices tortor tempor eget. Duis vitae lorem vitae metus
+                lobortis lobortis non at libero.4
               </p>
               <div>
-                <img src="../img/placeholder.webp" width="100%" alt="Placeholder text">
+                <img
+                  src="../img/placeholder.webp"
+                  width="100%"
+                  alt="Placeholder text"
+                />
                 <p class="image-caption pb-2">
                   Placeholder caption for the image above.
                 </p>
               </div>
               <div class="col-lg-10 col-md-12">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet leo lobortis, auctor felis nec, aliquet mi. Quisque sit amet consectetur ante, id dignissim tellus. Quisque posuere, odio eu scelerisque lobortis, sapien elit ornare erat, a ultricies tortor tortor nec mi. Fusce scelerisque ultricies mauris, at vestibulum leo laoreet tincidunt. Vivamus vestibulum neque posuere mi sollicitudin luctus. Phasellus vitae lacus at nulla laoreet faucibus a sit amet elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                  sit amet leo lobortis, auctor felis nec, aliquet mi. Quisque
+                  sit amet consectetur ante, id dignissim tellus. Quisque
+                  posuere, odio eu scelerisque lobortis, sapien elit ornare
+                  erat, a ultricies tortor tortor nec mi. Fusce scelerisque
+                  ultricies mauris, at vestibulum leo laoreet tincidunt. Vivamus
+                  vestibulum neque posuere mi sollicitudin luctus. Phasellus
+                  vitae lacus at nulla laoreet faucibus a sit amet elit. Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
                 <div>
-                  <img src="../img/placeholder.webp" width="100%" alt="Placeholder text">
+                  <img
+                    src="../img/placeholder.webp"
+                    width="100%"
+                    alt="Placeholder text"
+                  />
                   <p class="image-caption pb-2">
                     Placeholder caption for the image above.
                   </p>
                 </div>
                 <p>
-                  Etiam elementum ullamcorper risus, ac porta tellus vulputate eu. Integer fermentum erat a metus bibendum, at placerat dolor congue. In hac habitasse platea dictumst. Curabitur egestas lacinia turpis, nec imperdiet velit egestas in. Donec fringilla ut risus vitae posuere. Pellentesque augue lorem, finibus a mauris nec, facilisis venenatis ligula. Nullam est sem, porta non ultricies sit amet, scelerisque et erat. Nulla nec varius elit. Morbi nec est ac dui volutpat fermentum in sed dolor. Mauris a ligula eget elit porta malesuada. Aenean scelerisque tempor nibh, vitae efficitur ligula aliquet a. Ut eget nibh id orci volutpat rutrum. Suspendisse gravida ante tortor, in lacinia metus tincidunt non.
+                  Etiam elementum ullamcorper risus, ac porta tellus vulputate
+                  eu. Integer fermentum erat a metus bibendum, at placerat dolor
+                  congue. In hac habitasse platea dictumst. Curabitur egestas
+                  lacinia turpis, nec imperdiet velit egestas in. Donec
+                  fringilla ut risus vitae posuere. Pellentesque augue lorem,
+                  finibus a mauris nec, facilisis venenatis ligula. Nullam est
+                  sem, porta non ultricies sit amet, scelerisque et erat. Nulla
+                  nec varius elit. Morbi nec est ac dui volutpat fermentum in
+                  sed dolor. Mauris a ligula eget elit porta malesuada. Aenean
+                  scelerisque tempor nibh, vitae efficitur ligula aliquet a. Ut
+                  eget nibh id orci volutpat rutrum. Suspendisse gravida ante
+                  tortor, in lacinia metus tincidunt non.
                 </p>
                 <div>
-                  <img src="../img/placeholder.webp" width="100%" alt="Placeholder text">
+                  <img
+                    src="../img/placeholder.webp"
+                    width="100%"
+                    alt="Placeholder text"
+                  />
                   <p class="image-caption pb-2">
                     Placeholder caption for the image above.
                   </p>
                 </div>
                 <p>
-                  In sagittis, erat in fermentum lobortis, tortor purus euismod erat, sit amet dapibus tellus orci at libero. Phasellus aliquet ultricies purus, eu accumsan eros. Ut non justo sem. Praesent nec risus quis nunc hendrerit gravida. Phasellus efficitur enim ipsum, sit amet imperdiet odio lacinia ac. Nullam sit amet consequat libero, in vehicula erat. Donec posuere maximus porta.
+                  In sagittis, erat in fermentum lobortis, tortor purus euismod
+                  erat, sit amet dapibus tellus orci at libero. Phasellus
+                  aliquet ultricies purus, eu accumsan eros. Ut non justo sem.
+                  Praesent nec risus quis nunc hendrerit gravida. Phasellus
+                  efficitur enim ipsum, sit amet imperdiet odio lacinia ac.
+                  Nullam sit amet consequat libero, in vehicula erat. Donec
+                  posuere maximus porta.
                 </p>
               </div>
             </div>
-          </div>          
+          </div>
         </div>
       </section>
-<!-- More good news -->
+      <!-- More good news -->
       <section>
         <div class="container">
           <div class="row pt-5">
-            <h2>
-              More good news
-            </h2>
+            <h2>More good news</h2>
           </div>
           <div class="row text-start">
             <div class="col-lg-4 gy-4">
@@ -197,14 +232,19 @@
                   alt="..."
                 />
                 <div class="card-body d-flex flex-column">
-                  <h4 class="card-title mb-3">
-                    Lorem ipsum dolor sit amet
-                  </h4>
+                  <h4 class="card-title mb-3">Lorem ipsum dolor sit amet</h4>
                   <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fringilla ex sem. Phasellus dignissim dolor suscipit urna condimentum rutrum. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus fringilla ex sem. Phasellus dignissim dolor
+                    suscipit urna condimentum rutrum.
                   </p>
-                  <a href="./article-placeholder.html" type="button" class="btn align-self-end read-more">
-                    Read More...</a>
+                  <a
+                    href="./article-placeholder.html"
+                    type="button"
+                    class="btn align-self-end read-more"
+                  >
+                    Read More...</a
+                  >
                 </div>
               </div>
             </div>
@@ -216,13 +256,17 @@
                   alt="..."
                 />
                 <div class="card-body d-flex flex-column">
-                  <h4 class="card-title mb-3">
-                    Lorem ipsum dolor sit amet
-                  </h4>
+                  <h4 class="card-title mb-3">Lorem ipsum dolor sit amet</h4>
                   <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fringilla ex sem. Phasellus dignissim dolor suscipit urna condimentum rutrum. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus fringilla ex sem. Phasellus dignissim dolor
+                    suscipit urna condimentum rutrum.
                   </p>
-                  <a href="./article-placeholder.html" type="button" class="btn align-self-end read-more">
+                  <a
+                    href="./article-placeholder.html"
+                    type="button"
+                    class="btn align-self-end read-more"
+                  >
                     Read More...
                   </a>
                 </div>
@@ -236,24 +280,22 @@
                   alt="..."
                 />
                 <div class="card-body d-flex flex-column">
-                  <h4 class="card-title mb-3">
-                    Lorem ipsum dolor sit amet
-                  </h4>
+                  <h4 class="card-title mb-3">Lorem ipsum dolor sit amet</h4>
                   <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fringilla ex sem. Phasellus dignissim dolor suscipit urna condimentum rutrum. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus fringilla ex sem. Phasellus dignissim dolor
+                    suscipit urna condimentum rutrum.
                   </p>
-                  <a href="./article-placeholder.html" type="button" class="btn align-self-end read-more"
+                  <a
+                    href="./article-placeholder.html"
+                    type="button"
+                    class="btn align-self-end read-more"
                     >Read More...
                   </a>
                 </div>
               </div>
             </div>
           </div>
-
-          
-
-          
-
         </div>
       </section>
     </main>
