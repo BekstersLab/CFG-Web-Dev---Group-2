@@ -126,6 +126,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif;
 }
 
+.published {
+  font-size: 0.7em;
+}
+
 #newsletter p, footer p {
   color: var(--font-light);
 }
@@ -137,8 +141,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .dropdown-menu {
   color: var(--font-light);
-  background: var(--color-secondary);
-  background-image: linear-gradient(to right, var(--color-primary), var(--color-secondary), var(--color-tertiary));
+  background: var(--color-primary);
   border-style: none;
 }
 
@@ -270,9 +273,6 @@ ul {
 /* .btn-secondary:active {
   background-color: var(--color-tertiary) !important;
 } */
-
-
-
 
 .profile {
   border: 5px solid var(--color-secondary);
