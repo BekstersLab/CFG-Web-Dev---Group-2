@@ -85,6 +85,14 @@ h2, h3, h4, h5, h6, p {
   color: var(--font-dark);
 }
 
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
 #newsletter p, footer p {
   color: var(--font-light);
 }
@@ -304,7 +312,22 @@ No media query for `xs` since this is the default in Bootstrap */
   .card-img-top {
     height: 35vw;
   }
+  .more-news-img {
+    height: 15vw;
+
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {} */
+
+
+/* Article elements */
+p.summary-text{
+  font-weight: bold;
+  font-size: large;
+}
+
+p.image-caption{
+  font-size: small;
+}
