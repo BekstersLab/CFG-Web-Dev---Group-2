@@ -11,13 +11,13 @@
 
 
 
-// Collapses hamburger dropdown menu upon click
-const navLinks = document.querySelectorAll('.nav-item')
-const menuToggle = document.getElementById('navbarSupportedContent')
-const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false})
-navLinks.forEach((l) => {
-    l.addEventListener('click', () => { bsCollapse.toggle() })
-})
+// // Collapses hamburger dropdown menu upon click
+// const navLinks = document.querySelectorAll('.nav-item')
+// const menuToggle = document.getElementById('navbarSupportedContent')
+// const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false})
+// navLinks.forEach((l) => {
+//     l.addEventListener('click', () => { bsCollapse.toggle() })
+// })
 
 
 // function to set a given theme/color-scheme
