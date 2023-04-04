@@ -36,3 +36,21 @@ function updateActiveButton(themeName) {
     }
 })();
 
+
+// Navbar collapse for homepage - listen for link being clicked (classes don't work with event listeners as they have more than 1 element.)
+
+document.getElementById("homeClicked").addEventListener("click", collapseHamburgerMenu);
+
+document.getElementById("environmentClicked").addEventListener("click", collapseHamburgerMenu);
+
+document.getElementById("animalsClicked").addEventListener("click", collapseHamburgerMenu);
+
+document.getElementById("technologyClicked").addEventListener("click", collapseHamburgerMenu);
+
+document.getElementById("newsletterClicked").addEventListener("click", collapseHamburgerMenu);
+
+// run this function if a link is clicked to make the menu collapse
+function collapseHamburgerMenu() {
+    console.log("A link was clicked");
+    document.getElementById("navmenu").classList.replace("show","collapse");
+}
