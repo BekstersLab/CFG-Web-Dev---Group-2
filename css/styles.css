@@ -270,10 +270,6 @@ ul {
   background-color: var(--color-tertiary) !important;
 }
 
-/* .btn-secondary:active {
-  background-color: var(--color-tertiary) !important;
-} */
-
 .profile {
   border: 5px solid var(--color-secondary);
   border-radius: 20px;
