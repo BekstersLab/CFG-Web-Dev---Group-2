@@ -36,3 +36,22 @@ function updateActiveButton(themeName) {
     }
 })();
 
+
+// Navbar collapse for homepage -
+
+document.getElementById("homeClicked").addEventListener("click", collapseHamburgerMenu);
+
+document.getElementById("environmentClicked").addEventListener("click", collapseHamburgerMenu);
+
+document.getElementById("animalsClicked").addEventListener("click", collapseHamburgerMenu);
+
+document.getElementById("technologyClicked").addEventListener("click", collapseHamburgerMenu);
+
+document.getElementById("newsletterClicked").addEventListener("click", collapseHamburgerMenu);
+
+
+
+function collapseHamburgerMenu() {
+    console.log("A link was clicked");
+    document.getElementById("navmenu").classList.replace("show","collapse");
+}
