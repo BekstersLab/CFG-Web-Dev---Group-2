@@ -111,8 +111,7 @@ body {
 
 
 h1 {
-  color: var(--color-primary);
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+  color: var(--font-dark);
 }
 
 h2, h3, h4, h5, h6, p {
@@ -135,10 +134,11 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--font-light);
 }
 
-.navbar-brand {
+/* I don't think we need this - I am just trying to stop the logo being underlined when clicked though */
+/* .navbar-brand {
   font-size: 40px; 
   color: var(--font-light);
-}
+} */
 
 .dropdown-menu {
   color: var(--font-light);
@@ -154,6 +154,9 @@ h1, h2, h3, h4, h5, h6 {
 li.nav-item > a {
   color: var(--font-light) !important;
   font-size: 1.4rem;
+  border-bottom: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: rgba(0, 0, 0, 0.0)
 }
 
 li.nav-item > a:hover, a:active {
@@ -162,8 +165,19 @@ li.nav-item > a:hover, a:active {
   color: var(--font-light);
 }
 
-/* pushes read more buttons to bottom of cards. Doesn't work on columns shorter than others? */
 a {
+  color: var(--color-secondary);
+}
+
+a:hover {
+  color: var(--font-dark);
+}
+/* For dark backgrounds specify in the html */
+a.link-light {
+  color: var(--font-light);
+}
+/* pushes read more buttons to bottom of cards. */
+a.read-more {
   margin-top: auto;
   color: var(--font-light);
 }

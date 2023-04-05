@@ -49,6 +49,15 @@ document.getElementById("technologyClicked").addEventListener("click", collapseH
 
 document.getElementById("newsletterClicked").addEventListener("click", collapseHamburgerMenu);
 
+document.getElementById("bronClicked").addEventListener("click", collapseHamburgerMenu);
+
+document.getElementById("yanClicked").addEventListener("click", collapseHamburgerMenu);
+
+document.getElementById("emClicked").addEventListener("click", collapseHamburgerMenu);
+
+document.getElementById("bekClicked").addEventListener("click", collapseHamburgerMenu);
+
+
 // run this function if a link is clicked to make the menu collapse
 function collapseHamburgerMenu() {
     console.log("A link was clicked");
