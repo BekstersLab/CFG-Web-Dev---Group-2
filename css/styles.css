@@ -315,9 +315,6 @@ No media query for `xs` since this is the default in Bootstrap */
   .card-img-top {
     height: 30vw;
   }
-  .img-fluid {
-    width: 35vh;
-  }
   html {
     scroll-padding-top: 183px;
   }
