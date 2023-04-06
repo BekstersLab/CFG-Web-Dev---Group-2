@@ -179,7 +179,7 @@ a.link-light {
 /* pushes read more buttons to bottom of cards. */
 a.read-more {
   margin-top: auto;
-  color: var(--font-light);
+  color: var(--color-primary);
 }
 
 .read-more, .read-more:visited {
