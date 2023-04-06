@@ -236,6 +236,7 @@ ul {
 .card-img-top {
   width: 100%;
   object-fit: cover;
+  height: 35vw;
 }
 
 /* Forces images to fill space and crop upon resizing */
