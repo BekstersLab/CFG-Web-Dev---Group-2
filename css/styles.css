@@ -236,7 +236,6 @@ ul {
 .card-img-top {
   width: 100%;
   object-fit: cover;
-  height: 35vw;
 }
 
 /* Forces images to fill space and crop upon resizing */
@@ -309,12 +308,16 @@ No media query for `xs` since this is the default in Bootstrap */
   .card-img-top {
     height: 35vw;
   }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
   .card-img-top {
     height: 30vw;
+  }
+  .img-fluid {
+    width: 35vw;
   }
   html {
     scroll-padding-top: 183px;
