@@ -306,14 +306,14 @@ No media query for `xs` since this is the default in Bootstrap */
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
   .card-img-top {
-    height: 50vw;
+    height: 35vw;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
   .card-img-top {
-    height: 40vw;
+    height: 30vw;
   }
   html {
     scroll-padding-top: 183px;
@@ -323,7 +323,7 @@ No media query for `xs` since this is the default in Bootstrap */
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .card-img-top {
-    height: 35vw;
+    height: 20vw;
   }
   .more-news-img {
     height: 15vw;
