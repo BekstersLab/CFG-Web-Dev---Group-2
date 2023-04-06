@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  padding-top: 140px;
+  padding-top: 115px;
   background-color: var(--color-background);
 }
 
@@ -306,9 +306,8 @@ No media query for `xs` since this is the default in Bootstrap */
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
   .card-img-top {
-    height: 35vw;
+    height: 30vw;
   }
-
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -317,7 +316,7 @@ No media query for `xs` since this is the default in Bootstrap */
     height: 30vw;
   }
   .img-fluid {
-    width: 35vw;
+    width: 35vh;
   }
   html {
     scroll-padding-top: 183px;
