@@ -28,7 +28,7 @@
   <body>
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark py-3 gradient">
-      <div class="container">
+      <div class="container-fluid d-flex flex-nowrap">
         <!-- themes -->
         <div class="colour-theme">
           <div>
@@ -60,8 +60,7 @@
             ></button>
           </div>
         </div>
-      </div>
-      <div class="container">
+      <div class="logo-div p-2">
         <a
           href="index.html"
           class="navbar-brand"
@@ -69,10 +68,13 @@
           ><img
             src="./img/PPC-news-logo-white.png"
             alt="PPC News Logo"
-            width="150px"
+            class="img-fluid"
+          
         /></a>
+      </div>
+      <div class="container">
         <button
-          class="navbar-toggler"
+          class="navbar-toggler float-end"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navmenu"
@@ -80,7 +82,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav ms-auto">
+          <ul class="navbar-nav ms-auto float-end">
             <li class="nav-item">
               <a href="#home" class="nav-link" id="homeClicked">Home</a>
             </li>
