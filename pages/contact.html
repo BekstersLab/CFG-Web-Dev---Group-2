@@ -28,7 +28,7 @@
   <body>
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark py-3 gradient">
-      <div class="container">
+      <div class="container-fluid d-flex flex-nowrap">
         <!-- themes -->
         <div class="colour-theme">
           <div>
@@ -60,23 +60,28 @@
             ></button>
           </div>
         </div>
+        <div class="logo-div p-2">
+          <a href="../index.html"
+          class="navbar-brand"
+          style="border-bottom: none !important"
+            ><img
+              src="../img/PPC-news-logo-white.png"
+              alt="PPC News Logo"
+              class="img-fluid"
+          /></a>
+        </div>
+        <div class="container">
+          <button
+            class="navbar-toggler float-end"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
       </div>
-      <div class="container">
-        <a href="../index.html" class="navbar-brand" style="border-bottom: none !important"
-          ><img
-            src="../img/PPC-news-logo-white.png"
-            alt="PPC News Logo"
-            width="150px"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navmenu"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navmenu">
+      <div class="collapse navbar-collapse px-5 pt-2" id="navmenu">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a href="../index.html" class="nav-link" id="homeClicked">Home</a>
@@ -108,29 +113,20 @@
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <a class="dropdown-item" id="bronClicked" href="../pages/about.html"
-                    >Bronwen</a
-                  >
+                  <a class="dropdown-item" id="bronClicked" href="./about.html#bronwen">Bronwen</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" id="yanClicked" href="../pages/about.html#yan"
-                    >Yan</a
-                  >
+                  <a class="dropdown-item" id="yanClicked" href="./about.html#yan">Yan</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" id="emClicked" href="../pages/about.html#emily"
-                    >Emily</a
-                  >
+                  <a class="dropdown-item" id="emClicked" href="./about.html#emily">Emily</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" id="bekClicked" href="../pages/about.html#bek"
-                    >Rebecca</a
-                  >
+                  <a class="dropdown-item" id="bekClicked" href="./about.html#bek">Rebecca</a>
                 </li>
               </ul>
             </li>
           </ul>
-        </div>
       </div>
     </nav>
     <main>
