@@ -57,9 +57,7 @@ document.getElementById("emClicked").addEventListener("click", collapseHamburger
 
 document.getElementById("bekClicked").addEventListener("click", collapseHamburgerMenu);
 
-
 // run this function if a link is clicked to make the menu collapse
 function collapseHamburgerMenu() {
-    console.log("A link was clicked");
     document.getElementById("navmenu").classList.replace("show","collapse");
 }
