@@ -309,6 +309,12 @@ ul {
   max-width: 150px;
 }
 
+.logo-img {
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+}
+
 /* Extra small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap */
 
