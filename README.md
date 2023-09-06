@@ -57,7 +57,7 @@ Nice to have:
 
 ### Links
 
-- URL: [PPC News Website](https://exquisite-elf-ac2f7b.netlify.app/)
+- URL: [PPC News - Group 2 Final Website](https://exquisite-elf-ac2f7b.netlify.app/)
 - URL: [Positive News](https://www.positive.news/)
 - URL: [Good News Network](https://www.goodnewsnetwork.org/)
 - URL: [BBC News](https://www.bbc.co.uk/news)
