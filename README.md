@@ -3,14 +3,15 @@
 [CFG Coding Kickstarter Courses](https://codefirstgirls.com/courses/classes/coding-kickstarter/)
 
 Course Structure:
-Session 1: HTML Basics
-Session 2: CSS Basics
-Session 3: Recap & Project Debrief
-Session 4: Bootstrap
-Session 5: JavaScript
-Session 6: UI/UX and Accessibility
-Session 7: Github Pages & Project Work
-Session 8: Project Presentations
+
+- Session 1: HTML Basics
+- Session 2: CSS Basics
+- Session 3: Recap & Project Debrief
+- Session 4: Bootstrap
+- Session 5: JavaScript
+- Session 6: UI/UX and Accessibility
+- Session 7: Github Pages & Project Work
+- Session 8: Project Presentations
 
 This website was completed by Group 2:
 Bronwen Nielson
@@ -28,7 +29,7 @@ Rebecca Rootes (myself)
 
 ## Overview
 
-Create a static website working with other course members.
+Create a static website working with other course members in group 2.
 
 Must have:
 
@@ -72,5 +73,5 @@ The majority of news articles were taken from the Positive News website. Additio
 
 ## Authors
 
-- URL: [Rebecca Rootes](https://github.com/BekstersLab/)
-- URL: [Yan Fong](https://github.com/NigglyNoodle)
+- URL: [Rebecca Rootes on Github](https://github.com/BekstersLab/)
+- URL: [Yan Fong on Github](https://github.com/NigglyNoodle)
