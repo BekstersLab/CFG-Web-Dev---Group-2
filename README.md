@@ -57,7 +57,7 @@ Nice to have:
 ### Links
 
 - URL: [PPC News Website](https://exquisite-elf-ac2f7b.netlify.app/)
-- URL: [Positive News](https://https://www.positive.news/)
+- URL: [Positive News](https://www.positive.news/)
 - URL: [Good News Network](https://www.goodnewsnetwork.org/)
 - URL: [BBC News](https://www.bbc.co.uk/news)
 
@@ -72,5 +72,5 @@ The majority of news articles were taken from the Positive News website. Additio
 
 ## Authors
 
-[Rebecca Rootes](https://github.com/BekstersLab/)
-[Yan Fong](https://github.com/NigglyNoodle)
+- URL: [Rebecca Rootes](https://github.com/BekstersLab/)
+- URL: [Yan Fong](https://github.com/NigglyNoodle)
