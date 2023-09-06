@@ -26,6 +26,7 @@ Rebecca Rootes (myself)
   - [Links](#links)
   - [Built with](#built-with)
 - [Authors](#authors)
+- [Credit to](#credit-to)
 
 ## Overview
 
@@ -74,3 +75,11 @@ The majority of news articles were taken from the Positive News website. Additio
 
 - URL: [Rebecca Rootes on Github](https://github.com/BekstersLab/)
 - URL: [Yan Fong on Github](https://github.com/NigglyNoodle)
+
+## Credit to
+
+Thank you Code First Girls and in particular our course instructors:
+
+- Sam Adams
+- Inés Blanco
+- Boitumelo Raletsemo
