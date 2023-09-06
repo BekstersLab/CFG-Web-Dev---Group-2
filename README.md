@@ -50,10 +50,9 @@ Nice to have:
 ### Screenshots
 
 ![](./screenshots/home-bron-colour.png)
-![](./screenshots/home-yan-colour.png)
-![](./screenshots/home-emily-colour.png)
-![](./screenshots/home-bek-colour.png)
+![](./screenshots/article-page.png)
 ![](./screenshots/about-page.png)
+![](./screenshots/contact-page.png)
 
 ### Links
 
