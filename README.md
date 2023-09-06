@@ -58,11 +58,8 @@ Nice to have:
 ### Links
 
 - URL: [PPC News - Group 2 Final Website](https://exquisite-elf-ac2f7b.netlify.app/)
-- URL: [Positive News](https://www.positive.news/)
-- URL: [Good News Network](https://www.goodnewsnetwork.org/)
-- URL: [BBC News](https://www.bbc.co.uk/news)
 
-The majority of news articles were taken from the Positive News website. Additional articles were taken from a few other news sites listed. We were not required to come up with original article content.
+The majority of news articles were taken from the Positive News website. Additional articles were taken from Good News Network and BBC News. We were not required to come up with original article content.
 
 ### Built with
 
